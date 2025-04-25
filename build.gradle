@@ -17,15 +17,6 @@ dependencies {
 test {
     useJUnitPlatform()
 }
-
-jar {
-    manifest {
-        attributes(
-                'Main-Class': 'cat.LacyCat.CalCulang'
-        )
-    }
-
-}
 tasks.jar {
-    archiveFileName.set("Calculang.jar")
+    archiveFileName.set("CalculangLib.jar")
 }
