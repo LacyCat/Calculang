@@ -39,7 +39,9 @@ public class CalCulang {
                     }
                 }
             }
-            interpreter.run(code);
+            else {
+                interpreter.run(code);
+            }
         } catch (IOException e) {
             System.out.println("Error reading the file: " + e.getMessage());
         } catch (Exception e) {
