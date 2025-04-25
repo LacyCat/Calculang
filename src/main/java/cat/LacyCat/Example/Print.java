@@ -8,7 +8,7 @@ public class Print implements Grammar {
     private final Pattern pattern = Pattern.compile("print\\s+\"(.+)\"");
     @Override
     public Pattern getGrammarPattern() {
-        return null;
+        return pattern;
     }
 
     @Override

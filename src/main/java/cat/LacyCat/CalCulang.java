@@ -1,6 +1,7 @@
 package cat.LacyCat;
 
 import cat.LacyCat.Custom.Grammar;
+import cat.LacyCat.Example.Print;
 import cat.LacyCat.Others.DynamicClassLoader;
 
 import java.io.IOException;
