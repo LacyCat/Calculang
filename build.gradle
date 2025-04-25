@@ -20,3 +20,8 @@ test {
 tasks.jar {
     archiveFileName.set("CalculangLib.jar")
 }
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
